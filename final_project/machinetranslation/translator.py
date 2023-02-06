@@ -51,11 +51,4 @@ def frenchToEnglish(frenchText):
     englishText = translation["translations"][0]["translation"]
 
     return englishText
-
-en_message = ""
-
-fr_message = ""
-
-print(englishToFrench(en_message))
-
-print(frenchToEnglish(fr_message))
+    
